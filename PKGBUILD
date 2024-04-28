@@ -1,7 +1,7 @@
 # Maintainer: Manuel Gugger <mdgdot[at]tutanota[dot]com>
 
 pkgname=act-runner-bin
-pkgver=0.2.9
+pkgver=0.2.10
 pkgrel=1
 pkgdesc="A runner for Gitea Actions based on GitHub's Act"
 arch=('x86_64' 'aarch64')
@@ -14,8 +14,8 @@ conflicts=('act_runner')
 source_x86_64=("https://gitea.com/gitea/act_runner/releases/download/v${pkgver}/act_runner-${pkgver}-linux-amd64.xz")
 source_aarch64=("https://gitea.com/gitea/act_runner/releases/download/v${pkgver}/act_runner-${pkgver}-linux-arm64.xz")
 
-sha256sums_x86_64=('68730dde99a75eac4e27098230629d3f4fff57fea8bdb67a26fa31e10f26a3d3')
-sha256sums_aarch64=('99fff30be21937a4133a94c53f0f7b496a0a15697bd93183230de67e67f38df5')
+sha256sums_x86_64=('8dc95565f5d1c8d8b3cf717ce8fde72a2fae7de3c284447962e6d35850c0eeea')
+sha256sums_aarch64=('8c79b533b52d78c8bd241f239442ef271553e2b263f9e457aee662f57fec7017')
 
 source=('act_runner.service'
         'act_runner.yaml'

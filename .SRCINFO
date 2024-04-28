@@ -1,6 +1,6 @@
 pkgbase = act-runner-bin
 	pkgdesc = A runner for Gitea Actions based on GitHub's Act
-	pkgver = 0.2.9
+	pkgver = 0.2.10
 	pkgrel = 1
 	url = https://gitea.com/gitea/act_runner
 	arch = x86_64
@@ -17,9 +17,9 @@ pkgbase = act-runner-bin
 	sha256sums = ff4cc6b9b604da75254bbdcb550103d08b749a6986671c8fd69e1dbda2f230a6
 	sha256sums = 5ba0c3203cf42cb1e2b58840726b53e481fe980b8cfc24d14fba057d31d676ca
 	sha256sums = 5f8944df92d0e5278e3a29795dfcd8bcd340bea37075627d4f9d3303cdb58607
-	source_x86_64 = https://gitea.com/gitea/act_runner/releases/download/v0.2.9/act_runner-0.2.9-linux-amd64.xz
-	sha256sums_x86_64 = 68730dde99a75eac4e27098230629d3f4fff57fea8bdb67a26fa31e10f26a3d3
-	source_aarch64 = https://gitea.com/gitea/act_runner/releases/download/v0.2.9/act_runner-0.2.9-linux-arm64.xz
-	sha256sums_aarch64 = 99fff30be21937a4133a94c53f0f7b496a0a15697bd93183230de67e67f38df5
+	source_x86_64 = https://gitea.com/gitea/act_runner/releases/download/v0.2.10/act_runner-0.2.10-linux-amd64.xz
+	sha256sums_x86_64 = 8dc95565f5d1c8d8b3cf717ce8fde72a2fae7de3c284447962e6d35850c0eeea
+	source_aarch64 = https://gitea.com/gitea/act_runner/releases/download/v0.2.10/act_runner-0.2.10-linux-arm64.xz
+	sha256sums_aarch64 = 8c79b533b52d78c8bd241f239442ef271553e2b263f9e457aee662f57fec7017
 
 pkgname = act-runner-bin
