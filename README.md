@@ -1,0 +1,1 @@
+An aur package to install act-runner (to use with gitea) on archlinux.
